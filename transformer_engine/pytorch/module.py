@@ -79,7 +79,7 @@ from .cpp_extensions import (
 )
 from .constants import GemmParallelModes, dist_group_type, TE_DType
 
-_2X_ACC_FPROP = False
+_2X_ACC_FPROP = True
 _2X_ACC_DGRAD = True
 _2X_ACC_WGRAD = True
 _cublas_workspace = None
